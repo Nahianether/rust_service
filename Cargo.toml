@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 winreg = "0.10"
 tokio = { version = "1", features = ["full"] }
-winapi = { version = "0.3", features = ["processthreadsapi", "winnt", "securitybaseapi"] }
+winapi = { version = "0.3", features = ["processthreadsapi", "winnt", "securitybaseapi", "errhandlingapi", "shellapi"] }
+windows-service = "0.5"
